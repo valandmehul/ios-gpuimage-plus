@@ -6,7 +6,7 @@
 *        Mail: admin@wysaid.org
 */
 
-#ifndef _CGESPRITE2D_H_
+#if !defined(_CGESPRITE2D_H_) && !defined(_CGE_ONLY_FILTERS_)
 #define _CGESPRITE2D_H_
 
 #include "cgeSpriteCommon.h"
@@ -459,17 +459,17 @@ namespace CGE
 	protected:
 		Sprite2dInterChangeExt() { assert(0); } //兼容性接口, 不应该被调用
 	public:
-		Sprite2dInterChangeExt(GLuint textureID, int width, int height) : Sprite2dInterChange(textureID, width, height), m_frameIndex(0), m_deltaTime(0.0f), m_deltaAccum(100.0f), m_lastTime(0.0f), m_blendMode(CGEGLOBAL_BLEND_NONE), m_shouldLoop(true) {}
+		Sprite2dInterChangeExt(GLuint textureID, int width, int height) : Sprite2dInterChange(textureID, width, height), m_frameIndex(0), m_deltaTime(100.0f), m_deltaAccum(0.0f), m_lastTime(0.0f), m_blendMode(CGEGLOBAL_BLEND_NONE), m_shouldLoop(true) {}
 		Sprite2dInterChangeExt(const SharedTexture& texture) : Sprite2dInterChange(texture), m_frameIndex(0), m_deltaTime(0.0f), m_deltaAccum(100.0f), m_lastTime(0.0f), m_blendMode(CGEGLOBAL_BLEND_NONE), m_shouldLoop(true) {}
 		~Sprite2dInterChangeExt() {}
 
 		void firstFrame();
 		void nextFrame(unsigned int offset = 1);
 
-		void updateFrame(float dt); //根据两帧之间的间隔时间更新
+		void updateFrame(double dt); //根据两帧之间的间隔时间更新
 
-		void setFrameTime(float t) { m_lastTime = t; } //设置开始的总时间， 一般为当前时间
-		void updateByTime(float t); //根据总时间更新
+		void setFrameTime(double t) { m_lastTime = t; } //设置开始的总时间， 一般为当前时间
+		void updateByTime(double t); //根据总时间更新
 
 		void setFPS(float fps) { m_deltaTime = 1000.0f / fps; } //设置sprite切换的帧率， 默认10 fps
 
@@ -480,12 +480,15 @@ namespace CGE
 
 		void setBlendMode(CGEGlobalBlendMode blendMode) { m_blendMode = blendMode; }
 
+        inline bool isLastFrame() { return m_frameIndex >= m_vecFrames.size() - 1; }
+        inline void setToLastFrame() { m_frameIndex = (unsigned int)m_vecFrames.size() - 1; }
+        
 	protected:
 		void _drawFunc();
 
 		std::vector<Vec4f> m_vecFrames;
 		unsigned int m_frameIndex;
-		float m_deltaTime, m_deltaAccum, m_lastTime;
+		double m_deltaTime, m_deltaAccum, m_lastTime;
 		CGEGlobalBlendMode m_blendMode;
 		bool m_shouldLoop;
 	};

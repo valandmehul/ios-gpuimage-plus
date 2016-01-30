@@ -26,7 +26,7 @@
 
 @optional
 
-- (void)drawProcResults:(int)width height:(int)height framebuffer:(GLuint)framebuffer;
+- (void)drawProcResults:(void*)handler;
 
 @optional
 

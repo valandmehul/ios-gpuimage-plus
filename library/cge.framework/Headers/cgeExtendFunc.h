@@ -1,4 +1,4 @@
-#ifndef _CGEEXTENDFUNC_H_
+#if !defined(_CGEEXTENDFUNC_H_) && !defined(_CGE_ONLY_FILTERS_)
 #define _CGEEXTENDFUNC_H_
 
 namespace CGE

@@ -132,9 +132,7 @@ namespace CGE
 		TextureDrawer* getResultDrawer();
 		void setResultDrawer(TextureDrawer* drawer);
 
-	protected:
-
-		virtual void useImageFBO();
+        virtual void useImageFBO();
 
 	protected:
 

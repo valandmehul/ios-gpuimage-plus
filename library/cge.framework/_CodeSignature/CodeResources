@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/cgeAction.h</key>
 		<data>
-		w6iKqOsPeJbSH37RGMh//l/JPNE=
+		m4iYWa2XVndFHFaSML8IYsBzPbw=
 		</data>
 		<key>Headers/cgeAdvancedEffects.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/cgeAnimation.h</key>
 		<data>
-		4ChDtJW+0YkhW/xLCvb5WUjSfXE=
+		Npo6jJD3s0hpCyCLTT/xKUejtZA=
 		</data>
 		<key>Headers/cgeBilateralBlurFilter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/cgeCameraFrameRecorder.h</key>
 		<data>
-		HSsXHCiGozBg5hWZEU3hOGcJBzM=
+		tEHwtgePVyP7diFz/ziWVqnMQqU=
 		</data>
 		<key>Headers/cgeColorBalanceAdjust.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/cgeEnlargeEyeFilter.h</key>
 		<data>
-		vEL8+qC7A+FNZRfr2cVGec1PPL8=
+		ZmxD/ubxRmSTkfWYd11g8GftPVY=
 		</data>
 		<key>Headers/cgeExposureAdjust.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/cgeExtendFunc.h</key>
 		<data>
-		8+OsNI10BOO/M796gNTIGBs9cT0=
+		FQEtEsR52zNdHmwX2OhGvKmsldM=
 		</data>
 		<key>Headers/cgeEyeBrightenFilter.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Headers/cgeImageHandler.h</key>
 		<data>
-		oyAuHC/5aoY8Bb5J/gcLxdxr4i8=
+		v8EyLoGz80nB61GpXJwRlwn6LWc=
 		</data>
 		<key>Headers/cgeImageHandlerCV.h</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Headers/cgePlatform_IOS.h</key>
 		<data>
-		YiBx3pzIRwjmDdoKVL/4MRWBh6M=
+		fdycsiRsPRfDBVo6yWVHQbTXA6Q=
 		</data>
 		<key>Headers/cgePolarPixellateFilter.h</key>
 		<data>
@@ -310,15 +310,15 @@
 		</data>
 		<key>Headers/cgeSprite2d.h</key>
 		<data>
-		Yzh/hSxMr5Jb/A3lr8JSaSsqDWA=
+		j7DkMaauMgSCbydM4WFBJ2HgbdU=
 		</data>
 		<key>Headers/cgeSprite3d.h</key>
 		<data>
-		oEaDa1FNwbBKm2EqT//OV74SJqE=
+		2kgLoxSj6qFyC8wUI6eQaukPEuU=
 		</data>
 		<key>Headers/cgeSpriteCommon.h</key>
 		<data>
-		OXOLZ2oOxuReVGOIkEQabGSCg2Y=
+		0NUp36SCOrN2/+kfPpuAZuhDpvI=
 		</data>
 		<key>Headers/cgeStaticAssert.h</key>
 		<data>
@@ -405,7 +405,7 @@
 		</data>
 		<key>Headers/cgeAction.h</key>
 		<data>
-		w6iKqOsPeJbSH37RGMh//l/JPNE=
+		m4iYWa2XVndFHFaSML8IYsBzPbw=
 		</data>
 		<key>Headers/cgeAdvancedEffects.h</key>
 		<data>
@@ -417,7 +417,7 @@
 		</data>
 		<key>Headers/cgeAnimation.h</key>
 		<data>
-		4ChDtJW+0YkhW/xLCvb5WUjSfXE=
+		Npo6jJD3s0hpCyCLTT/xKUejtZA=
 		</data>
 		<key>Headers/cgeBilateralBlurFilter.h</key>
 		<data>
@@ -441,7 +441,7 @@
 		</data>
 		<key>Headers/cgeCameraFrameRecorder.h</key>
 		<data>
-		HSsXHCiGozBg5hWZEU3hOGcJBzM=
+		tEHwtgePVyP7diFz/ziWVqnMQqU=
 		</data>
 		<key>Headers/cgeColorBalanceAdjust.h</key>
 		<data>
@@ -497,7 +497,7 @@
 		</data>
 		<key>Headers/cgeEnlargeEyeFilter.h</key>
 		<data>
-		vEL8+qC7A+FNZRfr2cVGec1PPL8=
+		ZmxD/ubxRmSTkfWYd11g8GftPVY=
 		</data>
 		<key>Headers/cgeExposureAdjust.h</key>
 		<data>
@@ -505,7 +505,7 @@
 		</data>
 		<key>Headers/cgeExtendFunc.h</key>
 		<data>
-		8+OsNI10BOO/M796gNTIGBs9cT0=
+		FQEtEsR52zNdHmwX2OhGvKmsldM=
 		</data>
 		<key>Headers/cgeEyeBrightenFilter.h</key>
 		<data>
@@ -565,7 +565,7 @@
 		</data>
 		<key>Headers/cgeImageHandler.h</key>
 		<data>
-		oyAuHC/5aoY8Bb5J/gcLxdxr4i8=
+		v8EyLoGz80nB61GpXJwRlwn6LWc=
 		</data>
 		<key>Headers/cgeImageHandlerCV.h</key>
 		<data>
@@ -649,7 +649,7 @@
 		</data>
 		<key>Headers/cgePlatform_IOS.h</key>
 		<data>
-		YiBx3pzIRwjmDdoKVL/4MRWBh6M=
+		fdycsiRsPRfDBVo6yWVHQbTXA6Q=
 		</data>
 		<key>Headers/cgePolarPixellateFilter.h</key>
 		<data>
@@ -705,15 +705,15 @@
 		</data>
 		<key>Headers/cgeSprite2d.h</key>
 		<data>
-		Yzh/hSxMr5Jb/A3lr8JSaSsqDWA=
+		j7DkMaauMgSCbydM4WFBJ2HgbdU=
 		</data>
 		<key>Headers/cgeSprite3d.h</key>
 		<data>
-		oEaDa1FNwbBKm2EqT//OV74SJqE=
+		2kgLoxSj6qFyC8wUI6eQaukPEuU=
 		</data>
 		<key>Headers/cgeSpriteCommon.h</key>
 		<data>
-		OXOLZ2oOxuReVGOIkEQabGSCg2Y=
+		0NUp36SCOrN2/+kfPpuAZuhDpvI=
 		</data>
 		<key>Headers/cgeStaticAssert.h</key>
 		<data>

@@ -6,7 +6,7 @@
 *        Mail: admin@wysaid.org
 */
 
-#ifndef _CGESPRITECOMMON_H_
+#if !defined(_CGESPRITECOMMON_H_) && !defined(_CGE_ONLY_FILTERS_)
 #define _CGESPRITECOMMON_H_
 
 #include "cgeMat.h"

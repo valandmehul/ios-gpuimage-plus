@@ -9,6 +9,7 @@
 #define _CGE_ENLARGEEYE_H_
 
 #include "cgeAdvancedEffectsCommon.h"
+#include "cgeVec.h"
 
 namespace CGE
 {
@@ -27,6 +28,36 @@ namespace CGE
 		static CGEConstString paramIntensityName;
 		static CGEConstString paramCentralPosName;
 	};
+    
+    class CGEEnlarge2EyesFilter : public CGEAdvancedEffectOneStepFilterHelper
+    {
+    public:
+        bool init();
+        
+        void setEyeEnlargeRadius(float leftEyeRadius, float rightEyeRadius);
+        void setIntensity(float value);
+        void setEyePos(const Vec2f& left, const Vec2f& right);
+        
+    protected:
+        static CGEConstString paramEyeRadiusName;
+        static CGEConstString paramIntensityName;
+        static CGEConstString paramLeftEyePosName;
+        static CGEConstString paramRightEyePosName;
+    };
+    
+    class CGEEnlarge2EyesAndMouthFilter : public CGEEnlarge2EyesFilter
+    {
+    public:
+        bool init();
+        
+        void setMouthEnlargeRadius(float mouthRadius);
+        
+        void setMouthPos(const Vec2f& pos);
+        
+    protected:
+        static CGEConstString paramMouthRadiusName;
+        static CGEConstString paramMouthPosName;
+    };
 
 }
 

@@ -6,7 +6,7 @@
 *        Mail: admin@wysaid.org
 */
 
-#ifndef _CGESPRITE3d_H_
+#if! defined(_CGESPRITE3d_H_) && !defined(_CGE_ONLY_FILTERS_)
 #define _CGESPRITE3d_H_
 
 #include "cgeSpriteCommon.h"

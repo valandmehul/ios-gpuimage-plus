@@ -30,7 +30,9 @@ fprintf(stderr, "❌❌❌\n");\
 }while(0)
 #endif
 
+#ifndef CGE_LOG_CODE
 #define CGE_LOG_CODE(...) __VA_ARGS__
+#endif
 
 #else
 
