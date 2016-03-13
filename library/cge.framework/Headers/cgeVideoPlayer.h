@@ -9,6 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "cgeFrameRenderer.h"
 
+typedef enum CGEVideoPlayerLoadingStatus
+{
+    CGEVideoPlayerLoadingStatus_Loading,
+    CGEVideoPlayerLoadingStatus_LoadOK,
+    CGEVideoPlayerLoadingStatus_LoadFailed,
+}CGEVideoPlayerLoadingStatus;
+
 @class CGEVideoPlayer;
 
 @protocol CGEVideoPlayerDelegate <NSObject>
@@ -46,6 +53,8 @@
 
 @property(nonatomic, weak) id<CGEFrameUpdateDelegate> updateDelegate;
 @property(nonatomic, weak) id<CGEVideoPlayerDelegate> playerDelegate;
+
+@property(nonatomic, assign) CGEVideoPlayerLoadingStatus loadingStatus;
 
 #pragma mark - 初始化相关
 
