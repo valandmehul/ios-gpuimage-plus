@@ -11,9 +11,11 @@
 #import <GLKit/GLKit.h>
 #import "cgeCameraFrameRecorder.h"
 
-@interface CGECameraViewHandler : NSObject<GLKViewDelegate, CGEFrameUpdateDelegate, CGECameraTrackingDelegate>
+@interface CGECameraViewHandler : NSObject<CGEFrameUpdateDelegate>
 
 @property(nonatomic, readonly) CGECameraFrameRecorder* cameraRecorder;
+
+@property(nonatomic) BOOL shouldResetViewport;
 
 - (id)initWithGLKView:(GLKView*)glkView;
 
@@ -40,6 +42,8 @@
 - (BOOL)focusPoint: (CGPoint)point; //点按对焦, point 范围 [0, 1]， focus位置在显示区域的相对位置
 
 - (CGECameraDevice*) cameraDevice;
+
+- (void)stopCameraSync;
 
 #pragma mark - 拍照相关接口
 
@@ -68,16 +72,13 @@
 - (void)setMaskTexture :(GLuint)maskTexture textureAspectRatio:(float)aspectRatio;
 - (BOOL)isUsingMask;
 
-#pragma mark - 人脸检测相关
-@property(nonatomic, assign)BOOL underDetecting;
-@property(nonatomic, assign)BOOL hasFace;
-@property(nonatomic)NSArray* featureArray;
+//全局滤镜相关
+- (void)enableGlobalFilter :(const char*)config;
+- (void)enableFaceBeautify :(BOOL)shouldDo; //FaceBeautify 与 GlobalFilter 属于同类模块， 不可同时开启
+- (void)setGlobalFilterIntensity :(float)intensity;
+- (float)globalFilterIntensity;
 
-- (void)enableFaceDetect :(BOOL)shouldDetect;
-- (void)enableFaceDetect :(BOOL)shouldDetect setupDefaultFilters:(BOOL)setupFilters;
-- (void)enableFaceDetect :(BOOL)shouldDetect withFilterConfig:(const char*)config;
-- (void)enableFaceDetect :(BOOL)shouldDetect showFaceRects:(BOOL)showRects;
-- (BOOL)faceDetectEnabled;
+- (BOOL)isGlobalFilterEnabled;
 
 #pragma mark - 其他接口
 

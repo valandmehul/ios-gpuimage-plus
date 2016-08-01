@@ -8,21 +8,21 @@
 		<data>
 		bKOyDAQKGoRIcmTzdu/UD42+oaM=
 		</data>
-		<key>Headers/cgeAction.h</key>
-		<data>
-		m4iYWa2XVndFHFaSML8IYsBzPbw=
-		</data>
 		<key>Headers/cgeAdvancedEffects.h</key>
 		<data>
-		wOLpY6WQNCGYq1bm+p2wQfkVMl4=
+		rDYclHjb+5WanZuGCc6mfEa0x6A=
 		</data>
 		<key>Headers/cgeAdvancedEffectsCommon.h</key>
 		<data>
 		/OPZFq0Mc5zYNsgvxpCR0uWFFtI=
 		</data>
-		<key>Headers/cgeAnimation.h</key>
+		<key>Headers/cgeAlienLookFilter.h</key>
 		<data>
-		Npo6jJD3s0hpCyCLTT/xKUejtZA=
+		jrLQuvMrF1SN9iZ0jolgcg/WWmc=
+		</data>
+		<key>Headers/cgeBeautifyFilter.h</key>
+		<data>
+		oWx3eA2R5J42rKCtdcE1ruSAoQY=
 		</data>
 		<key>Headers/cgeBilateralBlurFilter.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/cgeCameraDevice.h</key>
 		<data>
-		1w0t93F2No8dMAcyvV507aPuID8=
+		BiLEOC+tiaYLnCDZC0Df82iBgd0=
 		</data>
 		<key>Headers/cgeCameraFrameRecorder.h</key>
 		<data>
-		tEHwtgePVyP7diFz/ziWVqnMQqU=
+		67aUol27EDx01RUK1mJ9d1xfpqQ=
 		</data>
 		<key>Headers/cgeColorBalanceAdjust.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/cgeCommonDefine.h</key>
 		<data>
-		89EN790mA35oSo7Iwq/YyIOs5O0=
+		DTiMflj1EGt/280yZb5Fpj6SvS8=
 		</data>
 		<key>Headers/cgeContrastAdjust.h</key>
 		<data>
@@ -74,7 +74,11 @@
 		</data>
 		<key>Headers/cgeDataParsingEngine.h</key>
 		<data>
-		f3XoxA73SFDNxzBA0t29R9W4JqU=
+		wJL3NioELmG20o1P1cD1qaqQ7lw=
+		</data>
+		<key>Headers/cgeDistortionFilter.h</key>
+		<data>
+		ZT+BQyNovh0+n+9D2GJQg/Oid7k=
 		</data>
 		<key>Headers/cgeDynamicFilters.h</key>
 		<data>
@@ -108,10 +112,6 @@
 		<data>
 		I1QVPTEVEFPahgk70C+JlX2HEhk=
 		</data>
-		<key>Headers/cgeExtendFunc.h</key>
-		<data>
-		FQEtEsR52zNdHmwX2OhGvKmsldM=
-		</data>
 		<key>Headers/cgeEyeBrightenFilter.h</key>
 		<data>
 		GCAwKCeob2cV+85OSJVn0jpt7g0=
@@ -120,13 +120,21 @@
 		<data>
 		JXqvwTEun1DvU/2BLHA89GnAdLY=
 		</data>
+		<key>Headers/cgeFaceBlendFilter.h</key>
+		<data>
+		QGJO9UruzRQfalCXbOeWNCs9deQ=
+		</data>
+		<key>Headers/cgeFaceFunctions.h</key>
+		<data>
+		XmxBgmw9EDAYRhNDJiab+XjdDdI=
+		</data>
 		<key>Headers/cgeFastTiltShift.h</key>
 		<data>
 		hFuJU4753ScjJK1f32oxguyshuA=
 		</data>
 		<key>Headers/cgeFilterBasic.h</key>
 		<data>
-		bMKsO65LIUKcgAjD3FEWtlrgsKQ=
+		LSQr7ikXJWzospaGw7CGHhgakY8=
 		</data>
 		<key>Headers/cgeFilters.h</key>
 		<data>
@@ -134,11 +142,11 @@
 		</data>
 		<key>Headers/cgeFrameRecorder.h</key>
 		<data>
-		i1zEuWqwXv7vj60tl1elAktbzYY=
+		5qE57zF+k8M1Ybdk6GOeQiDssNk=
 		</data>
 		<key>Headers/cgeFrameRenderer.h</key>
 		<data>
-		i+1HT2MOlE/BuqL93+wT+MJksGo=
+		0uyZN82dJohN0/L4TXgb66ly5JM=
 		</data>
 		<key>Headers/cgeFramework.h</key>
 		<data>
@@ -146,11 +154,11 @@
 		</data>
 		<key>Headers/cgeGLFunctions.h</key>
 		<data>
-		8DO7Bcitue1y0uz018U2t9ktqw0=
+		ElE8fChcZ+YIiF/jDQOx4nJz1k8=
 		</data>
 		<key>Headers/cgeGlobal.h</key>
 		<data>
-		zxMton9jjgSJHbfBpjca7GqwgIs=
+		C1X083VWxdsZN51D0yCIBn4zlvo=
 		</data>
 		<key>Headers/cgeHalftoneFilter.h</key>
 		<data>
@@ -166,7 +174,7 @@
 		</data>
 		<key>Headers/cgeImageFilter.h</key>
 		<data>
-		jYjSCQjxegc3COIqOEgE+CMk3bs=
+		JZQ4Ho7u8CNMWP9xTK3imwJ/LUM=
 		</data>
 		<key>Headers/cgeImageHandler.h</key>
 		<data>
@@ -178,7 +186,7 @@
 		</data>
 		<key>Headers/cgeImageHandlerIOS.h</key>
 		<data>
-		5z4dzFCviwMwyW3eKi+Rh1T7HS8=
+		JiV9wNS1ww+eokZQ2UknKiglnBI=
 		</data>
 		<key>Headers/cgeImageViewHandler.h</key>
 		<data>
@@ -195,6 +203,10 @@
 		<key>Headers/cgeLiquidationFilter.h</key>
 		<data>
 		5FbUGaSNQ0XIUpm1CPVAkZeIWBE=
+		</data>
+		<key>Headers/cgeLookupFilter.h</key>
+		<data>
+		UkTkJyjJNtRusRmmsjV8y2mzHTg=
 		</data>
 		<key>Headers/cgeMarscaraFilter.h</key>
 		<data>
@@ -240,21 +252,9 @@
 		<data>
 		VYCQzhCtQDhrstnxGapLYXPLSlI=
 		</data>
-		<key>Headers/cgeMultipleEffectsSpecial.h</key>
-		<data>
-		pAVGPVIUfYqhHnSydnp611Uj8nI=
-		</data>
-		<key>Headers/cgePainter.h</key>
-		<data>
-		12e8sQjerHS+1b15OP4OYKU0mJY=
-		</data>
-		<key>Headers/cgePainterDataset.h</key>
-		<data>
-		BNAGZaSqANcV2swQyICjEQYhyoE=
-		</data>
 		<key>Headers/cgePlatform_IOS.h</key>
 		<data>
-		fdycsiRsPRfDBVo6yWVHQbTXA6Q=
+		AwgjNVLUIsa9cqtsYxPVC/Tfqss=
 		</data>
 		<key>Headers/cgePolarPixellateFilter.h</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>Headers/cgeProcessingContext.h</key>
 		<data>
-		URsZx+pz9Zhnw54+i5EoD3tlVlk=
+		MeXyqlH0wzv54D2bCArKqKy3W/c=
 		</data>
 		<key>Headers/cgeRandomBlurFilter.h</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>Headers/cgeSharedGLContext.h</key>
 		<data>
-		c2oCuaACZH8T0TpVyAi/qvSi7xQ=
+		Hgl0iBhLZF/ROvMDX7EBrh9HFh4=
 		</data>
 		<key>Headers/cgeSharpenBlurAdjust.h</key>
 		<data>
@@ -307,18 +307,6 @@
 		<key>Headers/cgeSketchFilter.h</key>
 		<data>
 		LzXpoIrM+85XiFRxAcuSLCbNUHE=
-		</data>
-		<key>Headers/cgeSprite2d.h</key>
-		<data>
-		j7DkMaauMgSCbydM4WFBJ2HgbdU=
-		</data>
-		<key>Headers/cgeSprite3d.h</key>
-		<data>
-		2kgLoxSj6qFyC8wUI6eQaukPEuU=
-		</data>
-		<key>Headers/cgeSpriteCommon.h</key>
-		<data>
-		0NUp36SCOrN2/+kfPpuAZuhDpvI=
 		</data>
 		<key>Headers/cgeStaticAssert.h</key>
 		<data>
@@ -330,7 +318,7 @@
 		</data>
 		<key>Headers/cgeTextureUtils.h</key>
 		<data>
-		ZWesiOYvZl0lcjCpy/BswsSRVrw=
+		2rtbVyMQ3TxIcXmeSmwjgPnExl0=
 		</data>
 		<key>Headers/cgeThread.h</key>
 		<data>
@@ -342,35 +330,43 @@
 		</data>
 		<key>Headers/cgeUtilFunctions.h</key>
 		<data>
-		6vI2tJtP9uUzfqN2NLgCi8gU1Mw=
+		IuEjgWqv4DJvAskVd4LQ5XBBqow=
 		</data>
 		<key>Headers/cgeVec.h</key>
 		<data>
-		CV+wkAJWddEMZH2zCV91NJot8Rw=
+		iYiSUrh7PxjObK5ElCySmcM7bT4=
 		</data>
 		<key>Headers/cgeVideoCameraViewHandler.h</key>
 		<data>
-		yNfos4KAsyGjbY1RNHzUTs1cN+M=
+		S2+UMW6kRDQj3Du5qp770mM03nQ=
 		</data>
 		<key>Headers/cgeVideoFrameRecorder.h</key>
 		<data>
-		sndFHUKt/TiM6cOPJisQ8Km6yzE=
+		ylDWYSnqBZYreo13e5QtF5PxS3A=
 		</data>
 		<key>Headers/cgeVideoHandlerCV.h</key>
 		<data>
-		bpftgiEnVMcG5I8qsjmVDe8w8pw=
+		Tx/1wyXs9kqgsSbYVv3q8otAHCk=
 		</data>
 		<key>Headers/cgeVideoPlayer.h</key>
 		<data>
-		cZsBl3BCDH86GcLL0o5gLzAQhvw=
+		KeCjJaFHSWP2fj+qsJAXseQk2ag=
+		</data>
+		<key>Headers/cgeVideoPlayerExt.h</key>
+		<data>
+		gvNsgidbPd8uFQoG5UrSMPiXsxQ=
 		</data>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
 		<data>
-		UY98rpmbdQJlxHzJxk39l5OcYh0=
+		RwpUNhOb4sLDhJQxr1VVpZm/Jhs=
+		</data>
+		<key>Headers/cgeVideoPlayerViewHandlerExt.h</key>
+		<data>
+		h2QRfDw37KyHfY2b+wfkHzPPASo=
 		</data>
 		<key>Headers/cgeVideoWriter.h</key>
 		<data>
-		MwRqp0rUJOPyFQekTpg9L1wT9iw=
+		fH/GDoFyYg919mhj7aYQ7WfpEDw=
 		</data>
 		<key>Headers/cgeVignetteAdjust.h</key>
 		<data>
@@ -388,9 +384,13 @@
 		<data>
 		6nfItwIWl/EOGnNofoKE5exD81M=
 		</data>
+		<key>Headers/libCGE-Prefix.pch</key>
+		<data>
+		3eC2NA048KN825ZMa+6wWkzseHY=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		OPuv41R0CLq/pfhAzbLBVYTTWs8=
+		lkhrXg9/WanGv3a/9I5ocrcvvKg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -400,393 +400,1072 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/cge.h</key>
-		<data>
-		bKOyDAQKGoRIcmTzdu/UD42+oaM=
-		</data>
-		<key>Headers/cgeAction.h</key>
-		<data>
-		m4iYWa2XVndFHFaSML8IYsBzPbw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			bKOyDAQKGoRIcmTzdu/UD42+oaM=
+			</data>
+			<key>hash2</key>
+			<data>
+			LuQB5ICIV9b7to3uwlJ0iLuYZRs+eB3KVTDI0Y8bluA=
+			</data>
+		</dict>
 		<key>Headers/cgeAdvancedEffects.h</key>
-		<data>
-		wOLpY6WQNCGYq1bm+p2wQfkVMl4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			rDYclHjb+5WanZuGCc6mfEa0x6A=
+			</data>
+			<key>hash2</key>
+			<data>
+			LeotV9vc3vHGP2o1cz4hkolAyX08jNoi1CgQsAqeVw0=
+			</data>
+		</dict>
 		<key>Headers/cgeAdvancedEffectsCommon.h</key>
-		<data>
-		/OPZFq0Mc5zYNsgvxpCR0uWFFtI=
-		</data>
-		<key>Headers/cgeAnimation.h</key>
-		<data>
-		Npo6jJD3s0hpCyCLTT/xKUejtZA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			/OPZFq0Mc5zYNsgvxpCR0uWFFtI=
+			</data>
+			<key>hash2</key>
+			<data>
+			wU11BTbNSo3m3nwZudgrgQOt+RiVfCU6jq41XsCnOck=
+			</data>
+		</dict>
+		<key>Headers/cgeAlienLookFilter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jrLQuvMrF1SN9iZ0jolgcg/WWmc=
+			</data>
+			<key>hash2</key>
+			<data>
+			sejLboOVbpQ/M6Vup6SI9Sa1qLxS2Q8rpI7CAvN1ssg=
+			</data>
+		</dict>
+		<key>Headers/cgeBeautifyFilter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oWx3eA2R5J42rKCtdcE1ruSAoQY=
+			</data>
+			<key>hash2</key>
+			<data>
+			TGlHzgLs2X7hhshIFRma6dy3JOXRi2BpYI1xyWeLzDs=
+			</data>
+		</dict>
 		<key>Headers/cgeBilateralBlurFilter.h</key>
-		<data>
-		LD06t14qGEVMpA5w7SZEbRTC7R8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			LD06t14qGEVMpA5w7SZEbRTC7R8=
+			</data>
+			<key>hash2</key>
+			<data>
+			xd3d0JQ05w6SpbKJHAIaF4xrCzxelDN1fUtyBeuQMeo=
+			</data>
+		</dict>
 		<key>Headers/cgeBlendFilter.h</key>
-		<data>
-		n8I0HiPrdSHWXSJeo8nN+vc+ufM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			n8I0HiPrdSHWXSJeo8nN+vc+ufM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hfWBohzW+VBuC7enGOlgu8i39C59gKeL5BcwN1belzc=
+			</data>
+		</dict>
 		<key>Headers/cgeBrightnessAdjust.h</key>
-		<data>
-		QL/bmZnCIZOd5PrZ8Xji9uVUNY8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			QL/bmZnCIZOd5PrZ8Xji9uVUNY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3O0EpfCukx56TpNaDNn4JbCEPN11xUOnF7iRKToSdZk=
+			</data>
+		</dict>
 		<key>Headers/cgeCVUtilTexture.h</key>
-		<data>
-		IrXYdUSXz1GYDdNTr5YV4HRhEgw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			IrXYdUSXz1GYDdNTr5YV4HRhEgw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tzqgwiczSgcYoA4ZIOUsEa3c2Tc4IfYtUQdFbnXC47c=
+			</data>
+		</dict>
 		<key>Headers/cgeCameraDevice.h</key>
-		<data>
-		1w0t93F2No8dMAcyvV507aPuID8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			BiLEOC+tiaYLnCDZC0Df82iBgd0=
+			</data>
+			<key>hash2</key>
+			<data>
+			SR8q51zeMxMtYin/6HDiML/qatu3RfuU9erBR8Eh5h8=
+			</data>
+		</dict>
 		<key>Headers/cgeCameraFrameRecorder.h</key>
-		<data>
-		tEHwtgePVyP7diFz/ziWVqnMQqU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			67aUol27EDx01RUK1mJ9d1xfpqQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			tZMXjx5yGrRzM5NxVDC5gyaom+yan36k56GiYv5UDfU=
+			</data>
+		</dict>
 		<key>Headers/cgeColorBalanceAdjust.h</key>
-		<data>
-		jK3kwM/f6W/WzqFBPGiVXIlqPWM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			jK3kwM/f6W/WzqFBPGiVXIlqPWM=
+			</data>
+			<key>hash2</key>
+			<data>
+			e8s88cD4IgpGl2f9OymTQxYljfiJT4+/9nNBGGflzZo=
+			</data>
+		</dict>
 		<key>Headers/cgeColorLevelAdjust.h</key>
-		<data>
-		7o6q2cBDh3yWr5L0fI5RuNX1l6Q=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7o6q2cBDh3yWr5L0fI5RuNX1l6Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			kNV3UHvatl+TdWDoB2uWgaCH6vzIEYGdfbV31oMX1ZE=
+			</data>
+		</dict>
 		<key>Headers/cgeCommonDefine.h</key>
-		<data>
-		89EN790mA35oSo7Iwq/YyIOs5O0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			DTiMflj1EGt/280yZb5Fpj6SvS8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7aZR9stUKLsHqKLD+I+8eTkat4T9JFy2miR1zmsqguk=
+			</data>
+		</dict>
 		<key>Headers/cgeContrastAdjust.h</key>
-		<data>
-		Y8+DTosvDKy7tc5aJxjT2K9fvBQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y8+DTosvDKy7tc5aJxjT2K9fvBQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			nej1SEZG2WQJIVtY/DGNgVb/sP8EJbcyAFW5FTkSruU=
+			</data>
+		</dict>
 		<key>Headers/cgeCrosshatchFilter.h</key>
-		<data>
-		SPtI8tepBdN7seeJ/QBAj1FUdCk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			SPtI8tepBdN7seeJ/QBAj1FUdCk=
+			</data>
+			<key>hash2</key>
+			<data>
+			zxMDNiIjacADE0kz8CdxvUgKd3lRTJBIOOkFTtTAt3w=
+			</data>
+		</dict>
 		<key>Headers/cgeCurveAdjust.h</key>
-		<data>
-		1Zrb2ytipDJBLvVIgUVIpZm3cJQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Zrb2ytipDJBLvVIgUVIpZm3cJQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			nIyUS1HqxBCpyggDGZLpRwk6wilIr0L9vHvM4ru1InE=
+			</data>
+		</dict>
 		<key>Headers/cgeDataParsingEngine.h</key>
-		<data>
-		f3XoxA73SFDNxzBA0t29R9W4JqU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			wJL3NioELmG20o1P1cD1qaqQ7lw=
+			</data>
+			<key>hash2</key>
+			<data>
+			c6R7/MLL9EpcPSKxAdbFhjckHcNSHawwH7+S9WbRdLI=
+			</data>
+		</dict>
+		<key>Headers/cgeDistortionFilter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZT+BQyNovh0+n+9D2GJQg/Oid7k=
+			</data>
+			<key>hash2</key>
+			<data>
+			L4pLdn6nZXznk2HodOAemR89UdkG3nHDx62bXZQEPTc=
+			</data>
+		</dict>
 		<key>Headers/cgeDynamicFilters.h</key>
-		<data>
-		7EzMD6T1FTgaDxcShFKtPXT7eco=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7EzMD6T1FTgaDxcShFKtPXT7eco=
+			</data>
+			<key>hash2</key>
+			<data>
+			bcvo8CcMK6z4QCgCcwJg3uHMLpc/YQ58JICz2OWhWsI=
+			</data>
+		</dict>
 		<key>Headers/cgeDynamicImageViewHandler.h</key>
-		<data>
-		WonGoWPTLdzrkC+bToMN3xLhLBI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			WonGoWPTLdzrkC+bToMN3xLhLBI=
+			</data>
+			<key>hash2</key>
+			<data>
+			fD4PoDendyFuACuhx3WzLOVzF1hIJbTD5pqP+8bgt4Y=
+			</data>
+		</dict>
 		<key>Headers/cgeDynamicWaveFilter.h</key>
-		<data>
-		fBwPUzs/elquaIecjK621+Rfyc8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fBwPUzs/elquaIecjK621+Rfyc8=
+			</data>
+			<key>hash2</key>
+			<data>
+			eBQ4gKJR5kkfurzMVKFWjCT0+EfXwLtlqAfxJJrKqjA=
+			</data>
+		</dict>
 		<key>Headers/cgeEdgeExtract.h</key>
-		<data>
-		ThlmIEOQMSciROvWMdWcPpfWkAU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ThlmIEOQMSciROvWMdWcPpfWkAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			T5XeuBtiPe2D9N4RFDdJrKS0ebuOU/AthM4gVoROVGA=
+			</data>
+		</dict>
 		<key>Headers/cgeEdgeFilter.h</key>
-		<data>
-		XVwe/o6CkxlcoG+twHrbF1mUeZw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			XVwe/o6CkxlcoG+twHrbF1mUeZw=
+			</data>
+			<key>hash2</key>
+			<data>
+			uOavs6BujNlsV+RFyhIfzt97j+L4zIiOznjDYn4iVQQ=
+			</data>
+		</dict>
 		<key>Headers/cgeEmbossFilter.h</key>
-		<data>
-		Bvl4k8RlffpaPa9xbIu/YaocTIA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bvl4k8RlffpaPa9xbIu/YaocTIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			W40x2s66xST0C47jgCPjmNz9JUZ+4XQ4myz6PzBBvtg=
+			</data>
+		</dict>
 		<key>Headers/cgeEnlargeEyeFilter.h</key>
-		<data>
-		ZmxD/ubxRmSTkfWYd11g8GftPVY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZmxD/ubxRmSTkfWYd11g8GftPVY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yIg5N/u4K9V+Cq+k0w9tXQyN7NhJcGpuzdgF41pjPd4=
+			</data>
+		</dict>
 		<key>Headers/cgeExposureAdjust.h</key>
-		<data>
-		I1QVPTEVEFPahgk70C+JlX2HEhk=
-		</data>
-		<key>Headers/cgeExtendFunc.h</key>
-		<data>
-		FQEtEsR52zNdHmwX2OhGvKmsldM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1QVPTEVEFPahgk70C+JlX2HEhk=
+			</data>
+			<key>hash2</key>
+			<data>
+			mTOnWd6mzpQYk1vmUOAI5kGGNtUseSPAa0ax24RGHp4=
+			</data>
+		</dict>
 		<key>Headers/cgeEyeBrightenFilter.h</key>
-		<data>
-		GCAwKCeob2cV+85OSJVn0jpt7g0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			GCAwKCeob2cV+85OSJVn0jpt7g0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WLXnRVPgUQMmguxRNP67zLv2eHtg2JRp/hD1XB1kKPw=
+			</data>
+		</dict>
 		<key>Headers/cgeEyeTintFilter.h</key>
-		<data>
-		JXqvwTEun1DvU/2BLHA89GnAdLY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			JXqvwTEun1DvU/2BLHA89GnAdLY=
+			</data>
+			<key>hash2</key>
+			<data>
+			E8P9Zd8z4UWM3n6YmPENSEZxh1kKcvXrn0kqAPwT03M=
+			</data>
+		</dict>
+		<key>Headers/cgeFaceBlendFilter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QGJO9UruzRQfalCXbOeWNCs9deQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			syuIxEWnLIjYJ28+oa3MSVwwFpJ/qgdE2X5QXWQl1m0=
+			</data>
+		</dict>
+		<key>Headers/cgeFaceFunctions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XmxBgmw9EDAYRhNDJiab+XjdDdI=
+			</data>
+			<key>hash2</key>
+			<data>
+			3oJHGce5AYj7kVLkxz6MDzOTrkIlgX5ZcZ72eu1g7+c=
+			</data>
+		</dict>
 		<key>Headers/cgeFastTiltShift.h</key>
-		<data>
-		hFuJU4753ScjJK1f32oxguyshuA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			hFuJU4753ScjJK1f32oxguyshuA=
+			</data>
+			<key>hash2</key>
+			<data>
+			LFCxNBVIEzoN2atm2zNH3/uxd+24ZeA3Fi+P5lBVWtM=
+			</data>
+		</dict>
 		<key>Headers/cgeFilterBasic.h</key>
-		<data>
-		bMKsO65LIUKcgAjD3FEWtlrgsKQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			LSQr7ikXJWzospaGw7CGHhgakY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			na5fsCu1144KGw0DvxygFkao0wbbLlGU3fdmAmOBV6I=
+			</data>
+		</dict>
 		<key>Headers/cgeFilters.h</key>
-		<data>
-		tV0T7wYqc5xj/XIas2L6CQbSouk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			tV0T7wYqc5xj/XIas2L6CQbSouk=
+			</data>
+			<key>hash2</key>
+			<data>
+			dzlwJSdI2QzpLJ+dF3X6qdWok87WZt14c0TDjfN+WC0=
+			</data>
+		</dict>
 		<key>Headers/cgeFrameRecorder.h</key>
-		<data>
-		i1zEuWqwXv7vj60tl1elAktbzYY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			5qE57zF+k8M1Ybdk6GOeQiDssNk=
+			</data>
+			<key>hash2</key>
+			<data>
+			upY2jASxq0YW/7baLfdUv9a4s65hyOVG6MScPJ+WcGw=
+			</data>
+		</dict>
 		<key>Headers/cgeFrameRenderer.h</key>
-		<data>
-		i+1HT2MOlE/BuqL93+wT+MJksGo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			0uyZN82dJohN0/L4TXgb66ly5JM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Eu7eoSbLP7HXoVCRrm25u/o7AwOqGT5Eycmi6fGy4hQ=
+			</data>
+		</dict>
 		<key>Headers/cgeFramework.h</key>
-		<data>
-		Ur4O+LqStd/Q0v+DF3A8DQhU6VE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ur4O+LqStd/Q0v+DF3A8DQhU6VE=
+			</data>
+			<key>hash2</key>
+			<data>
+			d2GRJEGAFHffS4FKkIe3LOBbwdGgBdlxdIdpOLxPRi4=
+			</data>
+		</dict>
 		<key>Headers/cgeGLFunctions.h</key>
-		<data>
-		8DO7Bcitue1y0uz018U2t9ktqw0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElE8fChcZ+YIiF/jDQOx4nJz1k8=
+			</data>
+			<key>hash2</key>
+			<data>
+			XBwEEnoM0AeTY65Ngq4pZ5RnoS7lgu34KRbL4fujkoY=
+			</data>
+		</dict>
 		<key>Headers/cgeGlobal.h</key>
-		<data>
-		zxMton9jjgSJHbfBpjca7GqwgIs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			C1X083VWxdsZN51D0yCIBn4zlvo=
+			</data>
+			<key>hash2</key>
+			<data>
+			iGkpj8C0q+2HjddOqGdo6EvG6isL4M6SQxCuzZW+f9U=
+			</data>
+		</dict>
 		<key>Headers/cgeHalftoneFilter.h</key>
-		<data>
-		zcmPYBEZTMYPyMAJU1ItOubgN04=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zcmPYBEZTMYPyMAJU1ItOubgN04=
+			</data>
+			<key>hash2</key>
+			<data>
+			gaFr/oLtxHZ/h1mutnhZwNpKsTZz2Y1S1/yUt83rZiE=
+			</data>
+		</dict>
 		<key>Headers/cgeHazeFilter.h</key>
-		<data>
-		/gKImgK5JmXuAUvPqWBQaXL9JGI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			/gKImgK5JmXuAUvPqWBQaXL9JGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			q3eAWAwH56kkom5xFEp+nR/x7dq+xO5i2StHRNPX1W0=
+			</data>
+		</dict>
 		<key>Headers/cgeHueAdjust.h</key>
-		<data>
-		HEUMzkSF7k7oJIAHc4Wea0a+sas=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			HEUMzkSF7k7oJIAHc4Wea0a+sas=
+			</data>
+			<key>hash2</key>
+			<data>
+			g479okc3fgTj0bi9J9zZG/tuzKkbBDHG4pyJfvBWIiA=
+			</data>
+		</dict>
 		<key>Headers/cgeImageFilter.h</key>
-		<data>
-		jYjSCQjxegc3COIqOEgE+CMk3bs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			JZQ4Ho7u8CNMWP9xTK3imwJ/LUM=
+			</data>
+			<key>hash2</key>
+			<data>
+			c7aagt4PfTiSyJhryFAPFz19AiBAoUZjxUo2ILMZeEI=
+			</data>
+		</dict>
 		<key>Headers/cgeImageHandler.h</key>
-		<data>
-		v8EyLoGz80nB61GpXJwRlwn6LWc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			v8EyLoGz80nB61GpXJwRlwn6LWc=
+			</data>
+			<key>hash2</key>
+			<data>
+			nyatDthrirUgAnpKcW+5Fmdp4o/IyNkEdOYkw7u1xDQ=
+			</data>
+		</dict>
 		<key>Headers/cgeImageHandlerCV.h</key>
-		<data>
-		1Rr76m1+JfU5SHK3tBSNCsbAez0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Rr76m1+JfU5SHK3tBSNCsbAez0=
+			</data>
+			<key>hash2</key>
+			<data>
+			06C9UlF/XrGg2BDcCub2xGHDBI7iS8M8/pJdDGO7YN0=
+			</data>
+		</dict>
 		<key>Headers/cgeImageHandlerIOS.h</key>
-		<data>
-		5z4dzFCviwMwyW3eKi+Rh1T7HS8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			JiV9wNS1ww+eokZQ2UknKiglnBI=
+			</data>
+			<key>hash2</key>
+			<data>
+			wKMe94/51cFhTBWZK99xk2XWTu5h2+rRudUif/myqj4=
+			</data>
+		</dict>
 		<key>Headers/cgeImageViewHandler.h</key>
-		<data>
-		GtiND/+/gETRz2tsn1qdPA/tqJ0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			GtiND/+/gETRz2tsn1qdPA/tqJ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			+oHead4Mp2/T4IVdgRcdXTI/9nUuyVmroHUb1O4BNAE=
+			</data>
+		</dict>
 		<key>Headers/cgeLerpblurFilter.h</key>
-		<data>
-		7eQwkLPofyFiO2ZGSJzEN/jcWuY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7eQwkLPofyFiO2ZGSJzEN/jcWuY=
+			</data>
+			<key>hash2</key>
+			<data>
+			N4qpfj3yP2WP4sdaGviyipQd/0dk6uqxc3rv/SQ1yHs=
+			</data>
+		</dict>
 		<key>Headers/cgeLightFilter.h</key>
-		<data>
-		gpnfNw98e74RfgKhHwIaunFTIB0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			gpnfNw98e74RfgKhHwIaunFTIB0=
+			</data>
+			<key>hash2</key>
+			<data>
+			3NNWJbCNagbjS+LzK60a2ZEBV8u04O4qXrH/WpJ2OaQ=
+			</data>
+		</dict>
 		<key>Headers/cgeLiquidationFilter.h</key>
-		<data>
-		5FbUGaSNQ0XIUpm1CPVAkZeIWBE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			5FbUGaSNQ0XIUpm1CPVAkZeIWBE=
+			</data>
+			<key>hash2</key>
+			<data>
+			rIHnMXVx8MqEALhDKl3sexCbF401buWXqvF4Jtgaxpk=
+			</data>
+		</dict>
+		<key>Headers/cgeLookupFilter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UkTkJyjJNtRusRmmsjV8y2mzHTg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DvrWzeGkErQazoDl5l8k8Orh5Gs8/6DMDVmaFR/QG48=
+			</data>
+		</dict>
 		<key>Headers/cgeMarscaraFilter.h</key>
-		<data>
-		fs6CEs0bZjqSuSejfksIXoVCNRU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fs6CEs0bZjqSuSejfksIXoVCNRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			2ZYCcU0Yz3Tf+ZVwMZs5CpR3cFHsbLCK18NfA9QlgGk=
+			</data>
+		</dict>
 		<key>Headers/cgeMat.h</key>
-		<data>
-		Du3QF+KBe1jJzCUSWXo3aHdG2+Y=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Du3QF+KBe1jJzCUSWXo3aHdG2+Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			Cg0bKz+X94eVHeBTD45uDOoM1rmVWlU/DRxdQJO7Xlo=
+			</data>
+		</dict>
 		<key>Headers/cgeMaxValueFilter.h</key>
-		<data>
-		QnUb8Q8NHlSSuMOgekDi9M+Wt+c=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			QnUb8Q8NHlSSuMOgekDi9M+Wt+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			HM7Waov7O45Jc1cRupeOmiBixgeO211afKczn44Mifw=
+			</data>
+		</dict>
 		<key>Headers/cgeMidValueFilter.h</key>
-		<data>
-		tO7CKdCwqAw+3QgD4D41kQmD77I=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			tO7CKdCwqAw+3QgD4D41kQmD77I=
+			</data>
+			<key>hash2</key>
+			<data>
+			hE1rgdH8DjAfENX04UTrUxq7SmvV5oYjdYSOvG6U35U=
+			</data>
+		</dict>
 		<key>Headers/cgeMinValueFilter.h</key>
-		<data>
-		TQmnBgs/GTMDWYTUgLzUeCvjgxA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			TQmnBgs/GTMDWYTUgLzUeCvjgxA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vtUcE+vFJMQs4h5SVpBUqxsy2eeMBR3hKWTlOnxbhs0=
+			</data>
+		</dict>
 		<key>Headers/cgeMonochromeAdjust.h</key>
-		<data>
-		aZrl8SHMW4aGJTgXwzXXoFRaFVs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			aZrl8SHMW4aGJTgXwzXXoFRaFVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			SSlXxsqgb65AHBngJjxGqy9KD9Ke10X/lsYk5EBwi2Q=
+			</data>
+		</dict>
 		<key>Headers/cgeMosaicBlurFilter.h</key>
-		<data>
-		oE6UgUSXVKHrJWMzl6MK3ACVVr4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			oE6UgUSXVKHrJWMzl6MK3ACVVr4=
+			</data>
+			<key>hash2</key>
+			<data>
+			1XlZX6owbXIe8I6cBPpdT2nDoqBtHgZMQlhFVZfjqks=
+			</data>
+		</dict>
 		<key>Headers/cgeMotionBlurAdjust.h</key>
-		<data>
-		tsaGfyKmrLDFH2DVIuxlAX8gR7M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			tsaGfyKmrLDFH2DVIuxlAX8gR7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			BEfvreBtVXacEnqlq0jH9GjuN904U4C5fMc5+JHJmjc=
+			</data>
+		</dict>
 		<key>Headers/cgeMultipleEffects.h</key>
-		<data>
-		wO0b7BpY1WIxTGMJf09fZ2UtzSc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			wO0b7BpY1WIxTGMJf09fZ2UtzSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bl6m/0Ew/ijlB2kCR485NISCMG7kBAy614AJTNVGxx8=
+			</data>
+		</dict>
 		<key>Headers/cgeMultipleEffectsCommon.h</key>
-		<data>
-		K31MT1WM9hs7/rjzllqVVyL/TaE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			K31MT1WM9hs7/rjzllqVVyL/TaE=
+			</data>
+			<key>hash2</key>
+			<data>
+			AG8syuqDTnBhh/v1YMFeq6Iu30UGfrBfFXk9h/63dPI=
+			</data>
+		</dict>
 		<key>Headers/cgeMultipleEffectsDataset.h</key>
-		<data>
-		VYCQzhCtQDhrstnxGapLYXPLSlI=
-		</data>
-		<key>Headers/cgeMultipleEffectsSpecial.h</key>
-		<data>
-		pAVGPVIUfYqhHnSydnp611Uj8nI=
-		</data>
-		<key>Headers/cgePainter.h</key>
-		<data>
-		12e8sQjerHS+1b15OP4OYKU0mJY=
-		</data>
-		<key>Headers/cgePainterDataset.h</key>
-		<data>
-		BNAGZaSqANcV2swQyICjEQYhyoE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			VYCQzhCtQDhrstnxGapLYXPLSlI=
+			</data>
+			<key>hash2</key>
+			<data>
+			D+dKaP6rU4qZQ0XnJEBq78PgQxiVfPAyvp6CRSHSEVE=
+			</data>
+		</dict>
 		<key>Headers/cgePlatform_IOS.h</key>
-		<data>
-		fdycsiRsPRfDBVo6yWVHQbTXA6Q=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			AwgjNVLUIsa9cqtsYxPVC/Tfqss=
+			</data>
+			<key>hash2</key>
+			<data>
+			wU5CYrC1PwQOmKGZfQ5Z2Vvb4ybOVKqvUBMVI+UKJpE=
+			</data>
+		</dict>
 		<key>Headers/cgePolarPixellateFilter.h</key>
-		<data>
-		prRUju51tX8Okrk0HoGg612xuck=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			prRUju51tX8Okrk0HoGg612xuck=
+			</data>
+			<key>hash2</key>
+			<data>
+			QTGmzfJTQWR3Cqws7WSekaTcaGpk9y+gCILgsOuq0F8=
+			</data>
+		</dict>
 		<key>Headers/cgePolkaDotFilter.h</key>
-		<data>
-		+7jBBcEBiP21PnyAGXH45KLmIqE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+7jBBcEBiP21PnyAGXH45KLmIqE=
+			</data>
+			<key>hash2</key>
+			<data>
+			38OAkN34CZkmWDN9Df9qAiSOTBu4BLf16rzvHxoPkFA=
+			</data>
+		</dict>
 		<key>Headers/cgeProcessingContext.h</key>
-		<data>
-		URsZx+pz9Zhnw54+i5EoD3tlVlk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			MeXyqlH0wzv54D2bCArKqKy3W/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			3yWPXvrXryr1zdQyal45pxQkHGqZOq2pi6krkbsqa1k=
+			</data>
+		</dict>
 		<key>Headers/cgeRandomBlurFilter.h</key>
-		<data>
-		ZhHCTUxxSj/77fEKQhETDtoJct4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZhHCTUxxSj/77fEKQhETDtoJct4=
+			</data>
+			<key>hash2</key>
+			<data>
+			cMOkyLK+5qfMAHiZBQa0CghrWnrKd4Wm31T/fs9zlkA=
+			</data>
+		</dict>
 		<key>Headers/cgeRedeyeRemoveFilter.h</key>
-		<data>
-		OQlUkbN3vEEzw1+CTNB6oINQpQw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			OQlUkbN3vEEzw1+CTNB6oINQpQw=
+			</data>
+			<key>hash2</key>
+			<data>
+			fKZCXeCPBweCPnR2pJme8VNNOqhmCJdAONychTeaUQU=
+			</data>
+		</dict>
 		<key>Headers/cgeSaturationAdjust.h</key>
-		<data>
-		45JQIsZ25kBruWZVqGcm7FcAIIU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			45JQIsZ25kBruWZVqGcm7FcAIIU=
+			</data>
+			<key>hash2</key>
+			<data>
+			8EPMzTzygMyDeZl4+nSLVm8FWKpz6WO+Twf3ogAvCfA=
+			</data>
+		</dict>
 		<key>Headers/cgeScene.h</key>
-		<data>
-		3lgo2PrwtF0raBKmc0grZxlaUxc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			3lgo2PrwtF0raBKmc0grZxlaUxc=
+			</data>
+			<key>hash2</key>
+			<data>
+			1qKZdP0VuqwtVAJOvKQobQJE5kjkRF6sRBtG0g2/gBE=
+			</data>
+		</dict>
 		<key>Headers/cgeSelectiveColorAdjust.h</key>
-		<data>
-		CWOEHSKCvDSHbMTQb6sAR7vGSWU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			CWOEHSKCvDSHbMTQb6sAR7vGSWU=
+			</data>
+			<key>hash2</key>
+			<data>
+			E7SxkJbgoy0eLqq3/dHgccUChKzdxaxiS3N7ookz35k=
+			</data>
+		</dict>
 		<key>Headers/cgeShaderFunctions.h</key>
-		<data>
-		7whS+c0QhJoBWFU0kdVVkIiNZ2w=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7whS+c0QhJoBWFU0kdVVkIiNZ2w=
+			</data>
+			<key>hash2</key>
+			<data>
+			IMGZLipce7D5J9mOB46fKZZylpRhOPhoRr4niIAdFjU=
+			</data>
+		</dict>
 		<key>Headers/cgeShadowHighlightAdjust.h</key>
-		<data>
-		1leo1WO8q4+9yMDDC4aujS218f8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1leo1WO8q4+9yMDDC4aujS218f8=
+			</data>
+			<key>hash2</key>
+			<data>
+			JfjymkyDRWdAnQ+8edFbO75ViWXrgZMKcESDyw6Abqc=
+			</data>
+		</dict>
 		<key>Headers/cgeSharedGLContext.h</key>
-		<data>
-		c2oCuaACZH8T0TpVyAi/qvSi7xQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hgl0iBhLZF/ROvMDX7EBrh9HFh4=
+			</data>
+			<key>hash2</key>
+			<data>
+			gvcpIUqu37L6nydaD7XhofbbPqlbt6eyne0alJdzPVM=
+			</data>
+		</dict>
 		<key>Headers/cgeSharpenBlurAdjust.h</key>
-		<data>
-		lLS/EE/S7kaY9LopJHli3vzTC9M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			lLS/EE/S7kaY9LopJHli3vzTC9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			unmTZhOUsROG1ePkPZg0uDd6A90l4p5i3IdINJvIBxE=
+			</data>
+		</dict>
 		<key>Headers/cgeSketchFilter.h</key>
-		<data>
-		LzXpoIrM+85XiFRxAcuSLCbNUHE=
-		</data>
-		<key>Headers/cgeSprite2d.h</key>
-		<data>
-		j7DkMaauMgSCbydM4WFBJ2HgbdU=
-		</data>
-		<key>Headers/cgeSprite3d.h</key>
-		<data>
-		2kgLoxSj6qFyC8wUI6eQaukPEuU=
-		</data>
-		<key>Headers/cgeSpriteCommon.h</key>
-		<data>
-		0NUp36SCOrN2/+kfPpuAZuhDpvI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			LzXpoIrM+85XiFRxAcuSLCbNUHE=
+			</data>
+			<key>hash2</key>
+			<data>
+			kgj0+BIdbbnneR8aq9KovrZgUZB0f69ZibfcErUcsSo=
+			</data>
+		</dict>
 		<key>Headers/cgeStaticAssert.h</key>
-		<data>
-		zjfF18+QIPtRrjcZ0WLljWXTgJA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zjfF18+QIPtRrjcZ0WLljWXTgJA=
+			</data>
+			<key>hash2</key>
+			<data>
+			FZWpPQrVgWZcZKLf40zBMy/uC7kx3Xcs3kkk0kacUnM=
+			</data>
+		</dict>
 		<key>Headers/cgeTeethWhitenFilter.h</key>
-		<data>
-		NYRm4i6wOC5ieYtpWJtGETGfBJk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			NYRm4i6wOC5ieYtpWJtGETGfBJk=
+			</data>
+			<key>hash2</key>
+			<data>
+			i/DjMSP3Dznl4VKalyVmF9ziu2N6f8o0wthmRe14Pxk=
+			</data>
+		</dict>
 		<key>Headers/cgeTextureUtils.h</key>
-		<data>
-		ZWesiOYvZl0lcjCpy/BswsSRVrw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2rtbVyMQ3TxIcXmeSmwjgPnExl0=
+			</data>
+			<key>hash2</key>
+			<data>
+			dSLAM9rRdsmZpa3dTIeQZp1iNwmsjPUzuQiBSGw4HjY=
+			</data>
+		</dict>
 		<key>Headers/cgeThread.h</key>
-		<data>
-		EXKd28IyOJk0cu2R/8ztd/xy8bY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			EXKd28IyOJk0cu2R/8ztd/xy8bY=
+			</data>
+			<key>hash2</key>
+			<data>
+			xu2J9s53+UUL+xa1cN/gCmCbH0wZi5CVGKIQaugZPrk=
+			</data>
+		</dict>
 		<key>Headers/cgeTiltshiftAdjust.h</key>
-		<data>
-		vCj0/mE2AJRHlGJUROeXRn9cA0g=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			vCj0/mE2AJRHlGJUROeXRn9cA0g=
+			</data>
+			<key>hash2</key>
+			<data>
+			881S6wbzztiWSOuB9OwmG8fBjb+hi8v/1Cn1dUD8q30=
+			</data>
+		</dict>
 		<key>Headers/cgeUtilFunctions.h</key>
-		<data>
-		6vI2tJtP9uUzfqN2NLgCi8gU1Mw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			IuEjgWqv4DJvAskVd4LQ5XBBqow=
+			</data>
+			<key>hash2</key>
+			<data>
+			QufIfuGEjP06y5SE2ptLn7vbueH9/dBVptTAblGf23g=
+			</data>
+		</dict>
 		<key>Headers/cgeVec.h</key>
-		<data>
-		CV+wkAJWddEMZH2zCV91NJot8Rw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			iYiSUrh7PxjObK5ElCySmcM7bT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			pRNvYOtYZfNvdULKa9N627uOJcEyUKfWMw15aOtAhLQ=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoCameraViewHandler.h</key>
-		<data>
-		yNfos4KAsyGjbY1RNHzUTs1cN+M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			S2+UMW6kRDQj3Du5qp770mM03nQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			+bsm59a0l1DAO8HLqV0snCr0fgk6xS5BAtk3FxqponU=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoFrameRecorder.h</key>
-		<data>
-		sndFHUKt/TiM6cOPJisQ8Km6yzE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ylDWYSnqBZYreo13e5QtF5PxS3A=
+			</data>
+			<key>hash2</key>
+			<data>
+			cIlgezlGBJO4FOgaBAmnlq49BGfM8lx4ezMoRRuKR9E=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoHandlerCV.h</key>
-		<data>
-		bpftgiEnVMcG5I8qsjmVDe8w8pw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tx/1wyXs9kqgsSbYVv3q8otAHCk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZZMm4eaqHdkljzrIy8Vxy0lHtcWnKqd15JbvNuHVvI0=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoPlayer.h</key>
-		<data>
-		cZsBl3BCDH86GcLL0o5gLzAQhvw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			KeCjJaFHSWP2fj+qsJAXseQk2ag=
+			</data>
+			<key>hash2</key>
+			<data>
+			gw5FOgdjTnVWZRB1VaxoHuRW8+vZJxqh0VpfcWWXWj0=
+			</data>
+		</dict>
+		<key>Headers/cgeVideoPlayerExt.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gvNsgidbPd8uFQoG5UrSMPiXsxQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			9KdllbE5Cpl8v2jl/Zx1vgfWfftQfASgWuQywEFfkNU=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
-		<data>
-		UY98rpmbdQJlxHzJxk39l5OcYh0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			RwpUNhOb4sLDhJQxr1VVpZm/Jhs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3TfBULkAn4E8fgPT7i0Gxlx3Pw7krQ04YsXAdfhcwKc=
+			</data>
+		</dict>
+		<key>Headers/cgeVideoPlayerViewHandlerExt.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h2QRfDw37KyHfY2b+wfkHzPPASo=
+			</data>
+			<key>hash2</key>
+			<data>
+			pfTr2u7LsP70oUf2FUvCxREDJDDih0JXCNNuIck8b2M=
+			</data>
+		</dict>
 		<key>Headers/cgeVideoWriter.h</key>
-		<data>
-		MwRqp0rUJOPyFQekTpg9L1wT9iw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fH/GDoFyYg919mhj7aYQ7WfpEDw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ls3/RlQBTE5M20IhqRts51f3pis/Dc4Pqk3V070euU4=
+			</data>
+		</dict>
 		<key>Headers/cgeVignetteAdjust.h</key>
-		<data>
-		1lxFzhrWYHL8B7k7XSgnUICVDS0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1lxFzhrWYHL8B7k7XSgnUICVDS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Damb9PBx9MV4/HXhnHGQSktYAYAXS81o5mOdT1ybqdY=
+			</data>
+		</dict>
 		<key>Headers/cgeWhiteBalanceAdjust.h</key>
-		<data>
-		6BcuCMKSVMbY/Rcusj/Hf5MAhfI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			6BcuCMKSVMbY/Rcusj/Hf5MAhfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			RUf5vV9JTeiT6UBMKEMDSCCUh0ds1GHqu9Ttj0I6M2I=
+			</data>
+		</dict>
 		<key>Headers/cgeWrinkleRemoverFilter.h</key>
-		<data>
-		P+VPXjIifXQ/p5vocCd2ZcPLD0k=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			P+VPXjIifXQ/p5vocCd2ZcPLD0k=
+			</data>
+			<key>hash2</key>
+			<data>
+			z6xJwwpoA5IPAzxergGVoIRZKUM96XvqI5gGbjHmGUk=
+			</data>
+		</dict>
 		<key>Headers/cgeZoomBlurAdjust.h</key>
-		<data>
-		6nfItwIWl/EOGnNofoKE5exD81M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			6nfItwIWl/EOGnNofoKE5exD81M=
+			</data>
+			<key>hash2</key>
+			<data>
+			/FhhOni15KFhwAx6MOjZcv9Gca0BWmxGJv/jvcE6Q8g=
+			</data>
+		</dict>
+		<key>Headers/libCGE-Prefix.pch</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3eC2NA048KN825ZMa+6wWkzseHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			tNNWE5Dnqrz4cDpCfO4sYoxtyp/3PFNjlTm+gr0W5CM=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		mcC6qheQ9Mgt6pLsEu48wjJ+WbM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			mcC6qheQ9Mgt6pLsEu48wjJ+WbM=
+			</data>
+			<key>hash2</key>
+			<data>
+			PZQhgiypEpnAIwibljiugq1OB0xeX5Z57mouG1c6KAM=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

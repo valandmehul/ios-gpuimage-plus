@@ -85,6 +85,7 @@
 
 + (BOOL)isBackFacingCameraPresent;
 + (BOOL)hasFrontFacingCameraPresent;
++ (BOOL)isHeadphoneAvailable;
 
 #pragma mark - 相机设定相关接口
 
@@ -124,6 +125,7 @@
 
 - (void)cleanup;
 
+- (void)flushResolution;
 
 @end
 

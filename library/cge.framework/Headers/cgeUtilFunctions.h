@@ -9,8 +9,11 @@
 
 // 仅提供与安卓版一致的接口， 如需更佳的使用体验， 可直接调用C++代码！
 
-#import <UIKit/UIKit.h>
+#ifndef _CGE_UTILFUNCTIONS_H_
+#define _CGE_UTILFUNCTIONS_H_
+
 #import "cgeSharedGLContext.h"
+#import <GLKit/GLKit.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -22,6 +25,14 @@ extern "C" {
     void cgeSetLoadImageCallback(LoadImageCallback, LoadImageOKCallback, void* arg);
    
     GLuint cgeGlobalTextureLoadFunc(const char* source, GLint* w, GLint* h, void* arg);
+    
+    typedef struct CGETextureInfo
+    {
+        GLint width, height;
+        GLuint name;
+//        GLenum channelFormat; //取值: GL_RGBA, GL_RGB, GL_LUMINANCE_ALPHA, GL_LUMINANCE
+//        GLenum dataFormat; //一般为 GL_UNSIGNED_BYTE
+    }CGETextureInfo;
     
     // 注意， 图片格式必须为 GL_RGBA + GL_UNSIGNED_BYTE
     typedef struct CGEFilterImageInfo
@@ -42,27 +53,61 @@ extern "C" {
     UIImage* cgeFilterUIImage_MultipleEffects(UIImage* uiimage, const char* config, float intensity, CGESharedGLContext* processingContext);
     
     //通过配置创建单个滤镜
-    void* cgeCreateSingleFilterByConfig(const char* config);
+    void* cgeCreateFilterByConfig(const char* config);
 
-    //通过配置创建多重滤镜
+    //通过配置创建多重滤镜, 返回值一定是 CGEMutipleEffectFilter 类型
     void* cgeCreateMultipleFilterByConfig(const char* config, float intensity);
-
-    GLuint cgeUIImage2Texture(UIImage* uiimage);
-
-    //width和height将被写入texture的真实宽高 (tips: 后期可能存在UIImage过大时， 纹理将被压缩， 所以只有从这里获得的参数才是准确值)
-    GLuint cgeUIImage2TextureWithSize(UIImage* uiimage, GLint* width, GLint* height);
+    
+    //通过Buffer创建GL纹理, 如果可能， 请使用 GLKTextureLoader 直接完成
+    //某些情况下 GLKTextureLoader 工作不正常， 在 GLKTextureLoader 工作不正常的情况下， 请使用本函数
+    //info 的 width 和 height 将被写入texture的真实宽高 (tips: 后期可能存在UIImage过大时， 纹理将被压缩， 所以只有从这里获得的参数才是准确值)
+    CGETextureInfo cgeUIImage2Texture(UIImage* uiimage);
     
     //较快创建Texture的方法， 当imageBuffer为NULL 时将使用malloc创建合适大小的buffer。
     GLuint cgeCGImage2Texture(CGImageRef cgImage, void* imageBuffer);
     
     UIImage* cgeCreateUIImageWithBufferRGBA(void* buffer, size_t width, size_t height, size_t bitsPerComponent, size_t bytesPerRow);
     
-    CGAffineTransform cgeGetUIImageOrientationTransform(UIImage* image);
-    UIImage* cgeForceUIImageUp(UIImage* image);
+    UIImage* cgeCreateUIImageWithBufferRGB(void* buffer, size_t width, size_t height, size_t bitsPerComponent, size_t bytesPerRow);
     
+    UIImage* cgeCreateUIImageWithBufferBGRA(void* buffer, size_t width, size_t height, size_t bitsPerComponent, size_t bytesPerRow);
+    
+    UIImage* cgeCreateUIImageWithBufferGray(void* buffer, size_t width, size_t height, size_t bitsPerComponent, size_t bytesPerRow);
+    
+    //可以传入buffer作为缓存, 否则将创建一份新的buffer (malloc), 调用者需要负责 free
+    char* cgeGenBufferWithCGImage(CGImageRef cgImage, char* buffer, bool isGray);
+    
+    CGAffineTransform cgeGetUIImageOrientationTransform(UIImage* image);
+    UIImage* cgeForceUIImageUp(UIImage* image, int sizeLimit);
+
+    ///////////////////////////////////
+    
+    CGColorSpaceRef cgeCGColorSpaceRGB();
+    CGColorSpaceRef cgeCGColorSpaceGray();
+    CGColorSpaceRef cgeCGColorSpaceCMYK();
+    
+    CGETextureInfo cgeLoadTextureByPath(NSString* path);
+    CGETextureInfo cgeLoadTextureByURL(NSURL* url);
+    
+    UIImage* cgeLoadUIImageByPath(NSString* path);
+    UIImage* cgeLoadUIImageByURL(NSURL* url);
+    
+#ifdef CGE_USE_WEBP
+
+    CGImageRef cgeCGImageWithWebPData(CFDataRef webpData);
+    CGImageRef cgeCGImageWithWebPDataExt(CFDataRef webpData, BOOL forDisplay, BOOL useThreads, BOOL bypassFiltering, BOOL noFancyUpsampling);
+    
+    UIImage* cgeUIImageWithWebPData(CFDataRef webPData);
+    UIImage* cgeUIImageWithWebPURL(NSURL* url);
+    UIImage* cgeUIImageWithWebPFile(NSString* filepath);
+
+    //The result texture is always "GL_RGBA & GL_UNSIGNED_BYTE" 
+    CGETextureInfo cgeGenTextureWithWebPData(CFDataRef webpData);
+    
+#endif
     /*
      
-     cgeGetMachineDescriptionString 返回值对应表 
+     cgeGetMachineDescriptionString 返回值对应表
      (from: http://stackoverflow.com/questions/448162/determine-device-iphone-ipod-touch-with-iphone-sdk )
      
      @"iPhone1,1" => @"iPhone 1G"
@@ -128,4 +173,6 @@ extern "C" {
     
 #ifdef __cplusplus
 }
+#endif
+
 #endif

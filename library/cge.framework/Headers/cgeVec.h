@@ -11,10 +11,14 @@
 #include <cmath>
 #include "cgeStaticAssert.h"
 
-#define CGE_VEC_CLAMP(n, low, high) do{\
+#ifndef CGE_CLAMP
+
+#define CGE_CLAMP(n, low, high) do{\
 if(n < low) n = low;\
 else if(n > high) n = high;\
 }while(0)\
+
+#endif
 
 namespace CGE
 {
@@ -151,7 +155,7 @@ namespace CGE
 
 		static inline void clamp(V& v, typename V::VecDataType low, typename V::VecDataType high)
 		{
-			CGE_VEC_CLAMP(v[0], low, high);
+			CGE_CLAMP(v[0], low, high);
 		}
 	};
 
@@ -297,8 +301,8 @@ namespace CGE
 
 		static inline void clamp(V& v, typename V::VecDataType low, typename V::VecDataType high)
 		{
-			CGE_VEC_CLAMP(v[0], low, high);
-			CGE_VEC_CLAMP(v[1], low, high);
+			CGE_CLAMP(v[0], low, high);
+			CGE_CLAMP(v[1], low, high);
 		}
 	};
 
@@ -455,9 +459,9 @@ namespace CGE
 
 		static inline void clamp(V& v, typename V::VecDataType low, typename V::VecDataType high)
 		{
-			CGE_VEC_CLAMP(v[0], low, high);
-			CGE_VEC_CLAMP(v[1], low, high);
-			CGE_VEC_CLAMP(v[2], low, high);
+			CGE_CLAMP(v[0], low, high);
+			CGE_CLAMP(v[1], low, high);
+			CGE_CLAMP(v[2], low, high);
 		}
 	};
 
@@ -625,10 +629,10 @@ namespace CGE
 
 		static inline void clamp(V& v, typename V::VecDataType low, typename V::VecDataType high)
 		{
-			CGE_VEC_CLAMP(v[0], low, high);
-			CGE_VEC_CLAMP(v[1], low, high);
-			CGE_VEC_CLAMP(v[2], low, high);
-			CGE_VEC_CLAMP(v[3], low, high);
+			CGE_CLAMP(v[0], low, high);
+			CGE_CLAMP(v[1], low, high);
+			CGE_CLAMP(v[2], low, high);
+			CGE_CLAMP(v[3], low, high);
 		}
 
 	};

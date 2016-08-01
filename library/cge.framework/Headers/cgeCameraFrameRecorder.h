@@ -13,41 +13,9 @@
 #import "cgeCameraDevice.h"
 #import "cgeFrameRecorder.h"
 
-@protocol CGECameraFrameProcessingDelegate <NSObject>
-
-@required
-
-// 返回值表示是否对imageBuffer进行了修改
-- (BOOL)processingHandleBuffer :(CVImageBufferRef)imageBuffer;
-
-@optional
-
-- (BOOL)bufferRequestRGBA;
-
-@optional
-
-- (void)drawProcResults:(void*)handler;
-
-@optional
-
-- (void)setSharedContext:(CGESharedGLContext*)context;
-
-@end
-
-@protocol CGECameraTrackingDelegate <NSObject>
-
-@required
-- (void)trackingForSampleBuffer :(CMSampleBufferRef)sampleBuffer;
-
-@required
-- (int)trackedFaces :(CGRect*)faceRects maxFace: (int)maxFace;
-
-@end
-
 @interface CGECameraFrameRecorder : CGEFrameRecorder<CGECameraDeviceOutputDelegate>
 
-@property(nonatomic, weak, setter=setProcessingDelegate:) id<CGECameraFrameProcessingDelegate> processingDelegate;
-@property(nonatomic, weak) id<CGECameraTrackingDelegate> trackingDelegate;
+@property(nonatomic, weak, setter=setProcessingDelegate:) id<CGEFrameProcessingDelegate> processingDelegate;
 
 @property CGECameraDevice* cameraDevice;
 
@@ -76,8 +44,11 @@
 
 #pragma mark - 其他接口
 
-- (void)setTrackedFilter :(const char*)config;
-- (void)setTrackedFilterIntensity :(float)intensity;
+- (void)setGlobalFilter :(const char*)config;
+- (void)setGlobalFilterIntensity :(float)intensity;
+- (BOOL)hasGlobalFilter;
+- (float)globalFilterIntensity;
+
 
 @end
 

@@ -36,7 +36,6 @@ namespace CGE
         
         unsigned char* m_imageBuffer;
         int m_imageBufferLen;
-        CGColorSpaceRef m_colorSpace;
         CGFloat m_imageScale;
     };
 

@@ -42,8 +42,8 @@ namespace CGE
 	class CGEImageFilterInterfaceAbstract
 	{
 	public:
-		CGEImageFilterInterfaceAbstract() { CGE_ENABLE_GLOBAL_GLCONTEXT(); }
-		virtual ~CGEImageFilterInterfaceAbstract() {}
+        CGEImageFilterInterfaceAbstract();
+        virtual ~CGEImageFilterInterfaceAbstract();
 		virtual void render2Texture(CGEImageHandlerInterface* handler, GLuint srcTexture, GLuint vertexBufferID) = 0;
 
 		virtual void setIntensity(float value) {}

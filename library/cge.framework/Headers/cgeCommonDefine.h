@@ -85,7 +85,77 @@
 #endif
 #endif
 
+#define CGE_COMMON_CREATE_FUNC(cls, funcName) \
+static inline cls* create() \
+{\
+cls* instance = new cls(); \
+if(!instance->funcName()) \
+{ \
+delete instance; \
+instance = nullptr; \
+CGE_LOG_ERROR("create %s failed!", #cls); \
+} \
+return instance; \
+}
+
+#define CGE_ARRAY_LEN(x) (sizeof(x) / sizeof(*x))
+
 #ifdef __cplusplus
+
+template <class T, int Len>
+static inline int cgeArrLen(const T (&v)[Len])
+{
+    return Len;
+}
+
+template <typename T>
+static inline void cgeResetValue(T& t)
+{
+    t = T();
+}
+
+template <typename T, typename ...ARGS>
+static inline void cgeResetValue(T& t, ARGS&... args)
+{
+    t = T();
+    cgeResetValue(args...);
+}
+
+#define CGE_DELETE_GL_OBJS(func, ...) \
+do\
+{\
+    GLuint objs[] = {__VA_ARGS__}; \
+    func(cgeArrLen(objs), objs); \
+    cgeResetValue(__VA_ARGS__); \
+}while(0)
+
+template<class T>
+class CGEBlockLimit
+{
+    CGEBlockLimit& operator=(const CGEBlockLimit& other) { return *this; }
+public:
+    explicit CGEBlockLimit(const T& _func) : func(_func) {}
+    ~CGEBlockLimit() { func(); }
+    
+private:
+    const T& func;
+};
+
+template<class T>
+inline CGEBlockLimit<const T&> ___cgeMakeBlockLimit(const T& f)
+{
+    return CGEBlockLimit<const T&>(f);
+}
+
+#define __cgeMakeBlockLimit(ARG, ANYSIGN) \
+const auto& ANYSIGN = ___cgeMakeBlockLimit(ARG); \
+(void)ANYSIGN;  // Avoid warning for unused variable.
+
+#define _cgeMakeBlockLimit(ARG, VAR, LINE) __cgeMakeBlockLimit(ARG, VAR ## LINE)
+#define _cgeMakeBlockLimit_(ARG, VAR, LINE) _cgeMakeBlockLimit(ARG, VAR, LINE)
+#define cgeMakeBlockLimit(...) _cgeMakeBlockLimit_(__VA_ARGS__, _blockVar, __LINE__)
+
+
 extern "C" {
 #endif
     
@@ -180,7 +250,7 @@ extern "C" {
     
     const char* cgeGetVersion();
     void cgePrintGLString(const char*, GLenum);
-    void _cgeCheckGLError(const char* name, const char* file, int line); //请直接使用 cgeCheckGLError
+    bool _cgeCheckGLError(const char* name, const char* file, int line); //请直接使用 cgeCheckGLError
     
     ////////////////////////////////////
 

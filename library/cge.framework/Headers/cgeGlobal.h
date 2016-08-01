@@ -43,7 +43,7 @@ namespace CGE
 
 		static InitArguments sInitArugment;
 	};
-
+    
 	//CGE 全局初始化函数。
 	bool cgeInitialize(int w = CGEGlobalConfig::viewWidth, int h = CGEGlobalConfig::viewHeight, CGEGlobalConfig::InitArguments arg = CGEGlobalConfig::CGE_INIT_DEFAULT);
 

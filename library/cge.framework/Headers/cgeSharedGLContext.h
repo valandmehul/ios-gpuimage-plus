@@ -6,8 +6,8 @@
  *        Mail: admin@wysaid.org
  */
 
-#ifndef cge_cgeInterfaces_h
-#define cge_cgeInterfaces_h
+#ifndef _CGE_SHAREDGLCONTEXT_H_
+#define _CGE_SHAREDGLCONTEXT_H_
 
 #import <Foundation/Foundation.h>
 #import <OpenGLES/EAGL.h>

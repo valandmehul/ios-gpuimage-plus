@@ -22,7 +22,6 @@ namespace CGE
 		static CGEImageFilterInterface* blendParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
 		static CGEImageFilterInterface* vignetteBlendParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
 		static CGEImageFilterInterface* colorScaleParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
-		static CGEImageFilterInterface* specialParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
 		static CGEImageFilterInterface* pixblendParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
 		static CGEImageFilterInterface* krblendParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);
 		static CGEImageFilterInterface* vignetteParser(const char* pstr, CGEMutipleEffectFilter* fatherFilter = nullptr);

@@ -20,11 +20,14 @@ typedef enum CGEVideoPlayerViewDisplayMode
     CGEVideoPlayerViewDisplayModeDefault = CGEVideoPlayerViewDisplayModeScaleToFill
 }CGEVideoPlayerViewDisplayMode;
 
-@interface CGEVideoPlayerViewHandler : NSObject<GLKViewDelegate, CGEFrameUpdateDelegate>
+@interface CGEVideoPlayerViewHandler : NSObject<CGEFrameUpdateDelegate>
 
-@property(nonatomic, readonly) CGEVideoPlayer* videoPlayer;
+@property(nonatomic) CGEVideoPlayer* videoPlayer;
 
 @property(nonatomic) float maskAspectRatio; //使用的 mask 宽高比
+
+@property(nonatomic) BOOL shouldResetViewport;
+@property(nonatomic) BOOL shouldUpdateViewport;
 
 - (id)initWithGLKView:(GLKView*)glkView;
 

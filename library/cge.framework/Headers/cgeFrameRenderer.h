@@ -20,6 +20,40 @@
 
 @end
 
+@protocol CGEFrameProcessingDelegate <NSObject>
+
+@required
+
+// 返回值表示是否对imageBuffer进行了修改
+- (BOOL)processingHandleBuffer :(CVImageBufferRef)imageBuffer;
+
+@optional
+
+- (BOOL)bufferRequestRGBA;
+
+@optional
+
+- (void)drawProcResults:(void*)handler;
+
+@optional
+
+- (void)setSharedContext:(CGESharedGLContext*)context;
+
+@end
+
+//use for extra rendering
+@protocol CGEFrameExtraRenderingDelegate <NSObject>
+
+@required
+
+- (void)extraDrawFrame:(void*)handler;
+
+@optional
+
+- (void)setSharedContext:(CGESharedGLContext*)context;
+
+@end
+
 @interface CGEFrameRenderer : NSObject
 
 @property(nonatomic, readonly) BOOL isUsingMask;
@@ -38,10 +72,14 @@
 // 渲染当前帧
 - (void)drawResult;
 
+// 与drawResult功能相同, 但是将不加锁也不检查错误.
+- (void)fastDrawResult;
+
 #pragma mark - 滤镜相关接口
 
 - (void)setFilterWithConfig :(const char*) config;
 - (void)setFilterIntensity :(float)value;
+- (void)setFilterWithAddress :(void*)filter;
 
 #pragma mark - mask设定接口
 
@@ -52,6 +90,10 @@
 #pragma mark - 辅助方法
 - (void)setYUVDrawerFlipScale:(float)flipScaleX flipScaleY:(float)flipScaleY;
 - (void)setYUVDrawerRotation:(float)rotation;
+
+- (void)setResultDrawerFlipScale:(float)flipScaleX flipScaleY:(float)flipScaleY;
+- (void)setResultDrawerRotation:(float)rotation;
+
 - (void*)getVideoHandler;
 - (GLuint)getResultTexture;
 

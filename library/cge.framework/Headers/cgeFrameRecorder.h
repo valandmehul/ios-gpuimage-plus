@@ -35,6 +35,25 @@
 
 #pragma mark - 录像相关接口
 
+/*
+ by defualt:
+ 
+ outputSettings = @{
+ 
+ AVVideoCodecKey : AVVideoCodecH264,
+ AVVideoWidthKey : @(_videoSize.width),
+ AVVideoHeightKey : @(_videoSize.height),
+ AVVideoCompressionPropertiesKey : @{ AVVideoAverageBitRateKey : @(1650000),
+ AVVideoExpectedSourceFrameRateKey : @(30),
+ AVVideoMaxKeyFrameIntervalKey : @(30),
+ "EncodingLiveVideo" : @(YES), //必填， 必然为 YES
+ 
+ "mute" : @(NO)  //可选参数， 可不填
+ 
+ }
+ 
+ */
+
 - (void)startRecording :(NSURL*)videoURL size:(CGSize)videoSize;
 - (void)startRecording :(NSURL*)videoURL size:(CGSize)videoSize outputSetting:(NSDictionary*)ouputSetting;
 - (void)endRecording :(void (^)(void))completionHandler; //默认 压缩程度 中等

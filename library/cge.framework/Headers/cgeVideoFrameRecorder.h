@@ -29,6 +29,7 @@
 @property(nonatomic, readonly) AVAssetReader* videoAssetReader;
 @property(atomic) BOOL videoLoopRunning;
 @property(atomic) BOOL audioLoopRunning;
+@property(nonatomic) BOOL mute;
 
 //YES 表示使用实际播放速度进行播放
 //NO 表示使用最大速度进行播放(主要用于后台处理)
@@ -58,6 +59,10 @@
 
 //////////////////////////////
 
++ (double)fpsLimit;
++ (void)setFPSLimit:(double)fps;
+
+
 /*
  
  videoConfig (NSDictionary*)
@@ -70,6 +75,7 @@
        @"blendImage" : (UIImage*)blendImage,            //每一帧混合图片 (可不写)
         @"blendMode" : (CGETextureBlendMode)blendMode,  //混合模式 (默认 CGE_BLEND_MIX 当blendImage不存在时无效)
    @"blendIntensity" : (float)blendIntensity            //混合强度 (不写默认 1.0, 范围[0, 1])
+             @"mute" : (BOOL)isMuted                    //是否静音 (不写默认保留声音)
  }
  
  */

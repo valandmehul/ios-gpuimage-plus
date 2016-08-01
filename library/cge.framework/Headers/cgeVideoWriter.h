@@ -32,6 +32,7 @@
 @property(nonatomic, setter=setEncodingLiveVideo:) BOOL encodingLiveVideo;
 @property(nonatomic) BOOL hasAudioTrack;
 @property(nonatomic) BOOL shouldPassthroughAudio;
+@property(nonatomic) BOOL audioEncodingOver, videoEncodingOver;
 
 
 ///////////////////////////////////////
@@ -83,11 +84,13 @@
                      secPerFrame:(double)secPerFrame           // 每一帧持续的毫秒数
                completionHandler:(void (^)(BOOL))block;         // 执行完之后的回调, 参数表示是否生成成功
 
-+ (void)videoComposition:(NSURL*)outputVideoURL  inputVideoURL:(NSURL*)inputVideoURL inputAudioURL:(NSURL*)inputAudioURL quality:(NSString*)quality completionHandler:(void (^)(BOOL))block;
++ (void)videoComposition:(NSURL*)outputVideoURL  inputVideoURL:(NSArray<NSURL*>*)inputVideoURLs inputAudioURL:(NSArray<NSURL*>*)inputAudioURLs keepVideoSound:(BOOL)keepVideoSound quality:(NSString*)quality completionHandler:(void (^)(BOOL))block;
+
+//+ (void)videoCombination:(NSURL*)outputVideoURl inputVideos:(NSArray<NSURL*>*) inputVideos qualitu:(NSString*)quality 
 
 // 使用系统自带方法对视频进行调速（音调不变， speed > 0)
-+ (void)remuxingVideoWithSpeed:(NSURL*)outputVideoURL inputURL:(NSURL*)inputURL speed:(double)speed quality:(NSString*)quality completionHandler:(void (^)(BOOL success))block;
++ (void)remuxingVideoWithTimescale:(NSURL*)outputVideoURL inputURL:(NSURL*)inputURL timescale:(double)timescale quality:(NSString*)quality completionHandler:(void (^)(BOOL success))block;
 
-+ (void)reverseVideo:(NSURL*)outputVideoURL inputURL:(NSURL*)inputURL quality:(NSString*)quality completionHandler:(void (^)(BOOL success))block;
++ (void)reverseVideo:(NSURL*)outputVideoURL inputURL:(NSURL*)inputURL completionHandler:(void (^)(BOOL success))block;
 
 @end

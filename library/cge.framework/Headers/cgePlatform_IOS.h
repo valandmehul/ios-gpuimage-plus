@@ -50,4 +50,15 @@ fprintf(stderr, "❌❌❌\n");\
 
 #endif
 
-#endif /* HTPLATFORMS_H_ */
+#ifndef CGE_UNEXPECTED_ERR_MSG
+
+#define CGE_UNEXPECTED_ERR_MSG(...)
+
+#else
+
+//for important log msg
+#define CGE_LOG_KEEP(...) printf(__VA_ARGS__)
+
+#endif
+
+#endif

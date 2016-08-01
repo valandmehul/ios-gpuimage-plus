@@ -44,8 +44,6 @@ namespace CGE
 
         void setReverseTargetSize(bool rev) { m_reverseTargetSize = rev; }
         
-    protected:
-        
         void swapBufferFBO();
         
     private:

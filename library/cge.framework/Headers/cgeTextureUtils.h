@@ -10,19 +10,6 @@
 
 #include "cgeGLFunctions.h"
 
-#define CGE_TEXTURE_DRAWER_STATIC_FUNC(cls) \
-static inline cls* create() \
-{\
-	cls* drawer = new cls(); \
-	if(!drawer->init()) \
-	{ \
-		delete drawer; \
-		drawer = nullptr; \
-		CGE_LOG_ERROR("create %s failed!", #cls); \
-	} \
-	return drawer; \
-}\
-
 namespace CGE
 {
 
@@ -35,7 +22,7 @@ namespace CGE
 		
         virtual ~TextureDrawer();
 
-		CGE_TEXTURE_DRAWER_STATIC_FUNC(TextureDrawer);
+		CGE_COMMON_CREATE_FUNC(TextureDrawer, init);
 
 		//绘制 texture 到当前的framebuffer上
 		//同样不对viewport进行处理
@@ -78,7 +65,7 @@ namespace CGE
 		
         ~TextureDrawerExt();
 
-		CGE_TEXTURE_DRAWER_STATIC_FUNC(TextureDrawerExt);
+		CGE_COMMON_CREATE_FUNC(TextureDrawerExt, init);
 
 		//不处理任何viewport相关， 需提前设置
 		//将texture绘制到另一张texture上
@@ -120,7 +107,7 @@ namespace CGE
 	{
 	public:
 
-		CGE_TEXTURE_DRAWER_STATIC_FUNC(TextureDrawerWithMask);
+		CGE_COMMON_CREATE_FUNC(TextureDrawerWithMask, init);
         
         ~TextureDrawerWithMask();
 
@@ -149,7 +136,7 @@ namespace CGE
 	class TextureDrawer4ExtOES : public TextureDrawer
 	{
 	public:
-		CGE_TEXTURE_DRAWER_STATIC_FUNC(TextureDrawer4ExtOES);
+		CGE_COMMON_CREATE_FUNC(TextureDrawer4ExtOES, init);
 
 		void drawTexture(GLuint src);
 
@@ -170,7 +157,7 @@ namespace CGE
     class TextureDrawerYUV : public TextureDrawer
     {
     public:
-        CGE_TEXTURE_DRAWER_STATIC_FUNC(TextureDrawerYUV);
+        CGE_COMMON_CREATE_FUNC(TextureDrawerYUV, init);
         
         //assume the lumaTexture is bind to GL_TEXTURE0
         //and the chromaTexture is bind to GL_TEXTURE1
