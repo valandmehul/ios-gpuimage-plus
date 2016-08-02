@@ -352,17 +352,9 @@
 		<data>
 		KeCjJaFHSWP2fj+qsJAXseQk2ag=
 		</data>
-		<key>Headers/cgeVideoPlayerExt.h</key>
-		<data>
-		gvNsgidbPd8uFQoG5UrSMPiXsxQ=
-		</data>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
 		<data>
 		RwpUNhOb4sLDhJQxr1VVpZm/Jhs=
-		</data>
-		<key>Headers/cgeVideoPlayerViewHandlerExt.h</key>
-		<data>
-		h2QRfDw37KyHfY2b+wfkHzPPASo=
 		</data>
 		<key>Headers/cgeVideoWriter.h</key>
 		<data>
@@ -1356,17 +1348,6 @@
 			gw5FOgdjTnVWZRB1VaxoHuRW8+vZJxqh0VpfcWWXWj0=
 			</data>
 		</dict>
-		<key>Headers/cgeVideoPlayerExt.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gvNsgidbPd8uFQoG5UrSMPiXsxQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			9KdllbE5Cpl8v2jl/Zx1vgfWfftQfASgWuQywEFfkNU=
-			</data>
-		</dict>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
 		<dict>
 			<key>hash</key>
@@ -1376,17 +1357,6 @@
 			<key>hash2</key>
 			<data>
 			3TfBULkAn4E8fgPT7i0Gxlx3Pw7krQ04YsXAdfhcwKc=
-			</data>
-		</dict>
-		<key>Headers/cgeVideoPlayerViewHandlerExt.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			h2QRfDw37KyHfY2b+wfkHzPPASo=
-			</data>
-			<key>hash2</key>
-			<data>
-			pfTr2u7LsP70oUf2FUvCxREDJDDih0JXCNNuIck8b2M=
 			</data>
 		</dict>
 		<key>Headers/cgeVideoWriter.h</key>
