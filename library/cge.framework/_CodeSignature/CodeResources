@@ -254,7 +254,7 @@
 		</data>
 		<key>Headers/cgePlatform_IOS.h</key>
 		<data>
-		AwgjNVLUIsa9cqtsYxPVC/Tfqss=
+		jP6bT2U7kzG2WBHa2cz7db3E7yw=
 		</data>
 		<key>Headers/cgePolarPixellateFilter.h</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>Headers/cgeVideoPlayer.h</key>
 		<data>
-		KeCjJaFHSWP2fj+qsJAXseQk2ag=
+		ylc5lkx/DE34frgCJp+LNxvOLxM=
 		</data>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>Headers/libCGE-Prefix.pch</key>
 		<data>
-		3eC2NA048KN825ZMa+6wWkzseHY=
+		p8ZZgbN8qCCwyTvBzoIWkB8m2n8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1077,11 +1077,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AwgjNVLUIsa9cqtsYxPVC/Tfqss=
+			jP6bT2U7kzG2WBHa2cz7db3E7yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wU5CYrC1PwQOmKGZfQ5Z2Vvb4ybOVKqvUBMVI+UKJpE=
+			c5zLmzGJ7U2VFjpqv+5zLwSfVVnSADeroLiJh+hM7Yk=
 			</data>
 		</dict>
 		<key>Headers/cgePolarPixellateFilter.h</key>
@@ -1341,11 +1341,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KeCjJaFHSWP2fj+qsJAXseQk2ag=
+			ylc5lkx/DE34frgCJp+LNxvOLxM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gw5FOgdjTnVWZRB1VaxoHuRW8+vZJxqh0VpfcWWXWj0=
+			JhEfTUxX8ovkLl7QWlBMUsAIbmZ+p2xZB0M39uZjwus=
 			</data>
 		</dict>
 		<key>Headers/cgeVideoPlayerViewHandler.h</key>
@@ -1418,11 +1418,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3eC2NA048KN825ZMa+6wWkzseHY=
+			p8ZZgbN8qCCwyTvBzoIWkB8m2n8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tNNWE5Dnqrz4cDpCfO4sYoxtyp/3PFNjlTm+gr0W5CM=
+			ejZ1Laa8jW5iAaqxMaCMB0lZy1NCuimZ41LFWGUUC28=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

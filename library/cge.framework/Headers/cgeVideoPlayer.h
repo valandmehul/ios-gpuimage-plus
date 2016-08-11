@@ -47,6 +47,7 @@ typedef enum CGEVideoPlayerLoadingStatus
 @property AVPlayer* avPlayer;
 @property AVPlayerItemVideoOutput* videoOutput;
 @property CADisplayLink* displayLink;
+@property(nonatomic) dispatch_semaphore_t videoSema;
 
 // 视频分辨率
 @property(nonatomic) CGSize videoResolution;

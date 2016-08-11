@@ -25,8 +25,8 @@
 //_CGE_STATIC_ASSERT_ 为过时设定， 用于兼容不支持 C++ 11 static_assert 配置
 //#define _CGE_STATIC_ASSERT_ 1
 
-//定义 _CGE_IOS_NO_LOGS_ 可以强制消除所有的cge内建log
-//#define _CGE_IOS_NO_LOGS_
+//定义 _CGE_USE_LOG_ERR_ 可以强制开启所有的cge内建 error log
+#define _CGE_USE_LOG_ERR_
 
 #define _CGE_DISABLE_GLOBALCONTEXT_ 1
 

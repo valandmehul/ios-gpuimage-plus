@@ -12,22 +12,14 @@
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
 
-#if (defined(DEBUG) || defined(_DEBUG)) && !defined(_CGE_IOS_NO_LOGS_)
-
+#if (defined(DEBUG) || defined(_DEBUG) || defined(_CGE_USE_LOG_ERR_))
 #include <stdio.h>
+#endif
+
+#if (defined(DEBUG) || defined(_DEBUG))
 
 #ifndef CGE_LOG_INFO
 #define CGE_LOG_INFO(...) printf(__VA_ARGS__)
-#endif
-
-#ifndef CGE_LOG_ERROR
-#define CGE_LOG_ERROR(str, ...) \
-do{\
-fprintf(stderr, "❌❌❌");\
-fprintf(stderr, str, ##__VA_ARGS__);\
-fprintf(stderr, "%s:%d\n", __FILE__, __LINE__);\
-fprintf(stderr, "❌❌❌\n");\
-}while(0)
 #endif
 
 #ifndef CGE_LOG_CODE
@@ -40,14 +32,19 @@ fprintf(stderr, "❌❌❌\n");\
 #define CGE_LOG_INFO(...)
 #endif
 
-#ifndef CGE_LOG_ERROR
-#define CGE_LOG_ERROR(...)
-#endif
-
 #ifndef CGE_LOG_CODE
 #define CGE_LOG_CODE(...)
 #endif
 
+#endif
+
+#if !defined(CGE_LOG_ERROR) && (defined(_CGE_USE_LOG_ERR_) || defined(DEBUG) || defined(_DEBUG))
+#define CGE_LOG_ERROR(str, ...) \
+do{\
+fprintf(stderr, "\n❌❌❌\n" str "\n❌❌❌\n", ##__VA_ARGS__);\
+}while(0)
+#else
+#define CGE_LOG_ERROR(str, ...)
 #endif
 
 #ifndef CGE_UNEXPECTED_ERR_MSG
