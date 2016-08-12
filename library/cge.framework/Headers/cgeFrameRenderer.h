@@ -24,19 +24,26 @@
 
 @required
 
-// 返回值表示是否对imageBuffer进行了修改
+// The return value marks if the imageBuffer is modified
+// Note: Only RGBA buffer can be modified! That means the 'bufferRequestRGBA' function must return YES, if this function returns YES.
 - (BOOL)processingHandleBuffer :(CVImageBufferRef)imageBuffer;
 
 @optional
 
+// Request RGBA buffer or not.
+// Return NO for better performance. return YES if you want to change the buffer.
 - (BOOL)bufferRequestRGBA;
 
 @optional
 
+//Param "handler": An instance of type "CGE::CGEImageHandler*" (C++ class) would be passed in.
+//See the cgeImageHandler.h for more information.
+//OpenGL context & framebuffer is aleady set, you can just draw!
 - (void)drawProcResults:(void*)handler;
 
 @optional
 
+//The context would be passed in while the delegate is set to a view handler. 
 - (void)setSharedContext:(CGESharedGLContext*)context;
 
 @end
