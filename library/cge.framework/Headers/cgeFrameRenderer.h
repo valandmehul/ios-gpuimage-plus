@@ -43,7 +43,7 @@
 
 @optional
 
-//The context would be passed in while the delegate is set to a view handler. 
+//The context would be passed in while the delegate is set to a view handler.
 - (void)setSharedContext:(CGESharedGLContext*)context;
 
 @end
